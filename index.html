@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="formContent">
+        <h1>Student Management App</h1>
+        <form id="studentForm">
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="Name"><br>
+
+            <label for="phone">Phone: </label>
+                <input type="number" id="phone" placeholder="Phone"><br>
+
+                <label for="father">Fathers Name:</label>
+                <input type="text" id="father" placeholder="Father's Name"><br>
+
+                <label for="joining">Joining: </label>
+                <input type="date" id="joining"><br>
+
+                <label for="course">Course: </label>
+                <input type="text" id="course" placeholder="Course"><br>
+
+                <label for="branch">Branch: </label>
+                <input type="text" id="branch" placeholder="Branch"><br>
+
+                <label for="batch">Batch: </label>
+                <input type="text" id="batch" placeholder="Batch"><br>
+
+                <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <hr>
+    <table border="1" id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Father's Name</th>
+                <th>Joining</th>
+                <th>Course</th>
+                <th>Branch</th>
+                <th>Batch</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Records dynamically yahan aayenge -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
